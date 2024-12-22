@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glavnoe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://wsxzaq127.github.io/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container container_header">
+            <img src="img/img.png" alt="logo" class="logo">
+            <h3>
+                <h3 class="header__title">Abalakov</h3>
+            </h3>
+            <ul class="header__list">
+                <li class="header__item">Главная</li>
+                <li class="header__item">Об авторе</li>
+                <li class="header__item">Видео</li>
+                <li class="header__item">Галерея</li>
+                <li class="header__item">Контакты</li>
+            </ul>
+            <img src="img/image 1.png" alt="logo2" class="logo2">
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero-block">
+            <div class="container container__hero-block">
+                <img src="img/hero-block.png" alt="" class="hero-block__img">
+                <div class="hero-block__info">
+
+
+                    <h1 class="hero-block__title">
+                        Я, Абалаков Арсений
+                    </h1>
+                    <p class="hero-block__description">
+                        Я занимаюсь веб-дизайном, front-end и back-end разработкой уже 3 года. Вам нужен дизайн
+                        веб-сайта, верстка сайта или может быть сайт "под ключ"? Тогда свяжитесь со мной
+                    </p>
+                    <button class="hero-block__btn">
+                        Связь со мной
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="author">
+            <div class="container container__author">
+                <h2 class="about__author">Обо мне</h2>
+                <div class="author__info">
+                    <div class="author__skill">
+                        <p class="html">html:55%</p>
+                        <p class="css">css:25%</p>
+                        <p class="FIGMA">FIGMA:80%</p>
+                    </div>
+                    <img class="author__img" src="img/img (2).png" alt="">
+                </div>
+            </div>
+
+        </section>
+        <section class="video">
+        </section>
+        <div class="container container_video">
+            <h2 class="video_title">
+
+            </h2>
+            <iframe class="video__video" src="https://www.youtube.com/embed/iAjBUKoMxnY?si=keo2KHeY27zyn54v"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        </section>
+        <section class="gallery">
+            <div class="container container_gallery">
+                <h2 class="gallery__title">Галерея</h2>
+                <ul class="gallery__list">
+                    <li class="gallery__item">
+                        <a href="img/gallery1.png" class="lightzoom">
+                            <img src="img/gallery1.png" alt="gal1" class="gallery__img">
+                        </a>
+                    </li>
+                    <li class="gallery__item">
+                        <a href="img/gallery2.png" class="lightzoom">
+                            <img src="img/gallery2.png" alt="gal2" class="gallery__img">
+                        </a>
+                    </li>
+                    <li class="gallery__item">
+                        <a href="img/gallery3.png" class="lightzoom">
+                            <img src="img/gallery3.png" alt="gal3" class="gallery__img">
+                        </a>
+                    </li>
+                    <li class="gallery__item">
+                        <a href="img/gallery4.png" class="lightzoom">
+                            <img src="img/gallery4.png" alt="gal4" class="gallery__img">
+                        </a>
+                    </li>
+                    <li class="gallery__item">
+                        <a href="img/gallery5.png" class="lightzoom">
+                            <img src="img/gallery5.png" alt="gal5" class="gallery__img">
+                        </a>
+                    </li>
+                    <li class="gallery__item">
+                        <a href="img/gallery6.png" class="lightzoom">
+                            <img src="img/gallery6.png" alt="gal6" class="gallery__img">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container container_footer">
+            <div>
+                <h2 class="footer__title">Арсений Абалаков</h2>
+                <p class="footer__text">© 2024 Все права защищены</p>
+            </div>
+            <ul class="footer__list">
+                <li class="footer__item"><a href="" class="footer__link">
+                    <img src="img/telegram.png" alt="telegram" class="footer__img">
+                </a></li>
+                <li class="footer__item"><a href="" class="footer__link">
+                    <img src="img/vk.png" alt="vk" class="footer__img">
+                </a></li>
+                <li class="footer__item"><a href="" class="footer__link">
+                    <img src="img/Youtube_white.png" alt="youtube" class="footer__img">
+                </a></li>
+                <li class="footer__item"><a href="" class="footer__link">
+                    <img src="img/discord.png" alt="discord" class="footer__img">
+                </a></li>
+            </ul>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://wsxzaq127.github.io/lightzoom.js"></script>
+    <script type="text/javascript">
+        jQuery('.lightzoom').lightzoom({speed: 400, viewTitle: true});
+    </script>
+</body>
+
+</html>
